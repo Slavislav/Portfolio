@@ -1,0 +1,102 @@
+/* MAIN STYLE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header,
+nav,
+section,
+footer {
+  width: 80%;
+  margin: 20px 0;
+}
+
+h1,
+h2 {
+  color: #3498db;
+}
+
+a {
+  color: #3498db;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+/* Light mode styles */
+.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* BUTTON SECTION styles */
+#toggle-style-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#toggle-mode {
+  background-color: #3498db;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-mode:hover {
+  background-color: #2980b9;
+}
+/* SKILLS SECTION styles*/
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.skills-list li {
+  margin-right: 15px;
+}
+
+.skills-list i {
+  font-size: 24px;
+  color: #3498db;
+  margin-right: 8px;
+}
+
+/* ABOUT ME SECTION styles */
+.about-me-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-me-text {
+  width: 60%;
+}
+
+.about-me-image {
+  width: 20%;
+}
+
+.about-me-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
