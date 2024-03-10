@@ -1,7 +1,7 @@
 /* MAIN STYLE */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #0D0D0D;
   color: #333;
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 body.dark-mode {
-  color: #3e4f5f;
+  color: #0D0D0D;
 }
 
 header {
@@ -41,24 +41,24 @@ footer {
 
 h1,
 h2 {
-  color: #3498db;
+  color: #F25D27;
 }
 
 a {
-  color: #2b79ad;
+  color: #F29F05;
 }
 
 p {
-  color: #79b3da;
+  color: #F29F05;
 }
 
 a:hover {
-  color: #2980b9;
+  color: #F25D27;
 }
 
 /* Light mode styles */
 .light-mode {
-  background-color: lightgray;
+  background-color: #3A758C;
   color: #333333;
 }
 
@@ -75,8 +75,8 @@ a:hover {
 }
 
 #toggle-mode {
-  background-color: #2c3e50;
-  color: #ffffff;
+  background-color: #F29F05; 
+  color: #e74104;
   font-size: 18px;
   padding: 10px 20px;
   border: none;
@@ -85,7 +85,7 @@ a:hover {
 }
 
 #toggle-mode:hover {
-  background-color: #2980b9;
+  background-color: #F2E0D5;
 }
 /* SKILLS SECTION styles*/
 #skills {
@@ -99,12 +99,12 @@ a:hover {
 
 .skills-list li {
   margin-right: 15px;
-  color: #79b3da;
+  color: #F2E0D5;
 }
 
 .skills-list i {
   font-size: 24px;
-  color: #3498db;
+  color: #F29F05;
   margin-right: 8px;
 }
 
@@ -128,17 +128,28 @@ a:hover {
   border-radius: 8px;
 }
 
+.about-me-image img.image-border {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+}
+
+.about-me-image img.image-clicked {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+/* CONTACT SECTION styles */
 #contact, #footer {
   text-align: center;
 }
 
 #contact p {
-  color: #79b3da;
+  color: #F29F05;
 }
 
 #contact li {
   position: relative;
-  color: #79b3da;
+  color: #F2E0D5;
   text-align: center;
 }
 
@@ -150,3 +161,4 @@ a:hover {
 #projects {
   text-align: center;
 }
+
