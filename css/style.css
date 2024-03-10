@@ -1,7 +1,7 @@
 /* MAIN STYLE */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   color: #333;
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 body.dark-mode {
-  color: #0D0D0D;
+  color: #0d0d0d;
 }
 
 header {
@@ -30,6 +30,59 @@ nav li {
   display: inline-block;
   margin: 0 10px;
 }
+/* Styles for smaller screens (tablets) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  header,
+  nav,
+  section,
+  footer {
+    width: 90%; /* Adjust container width for smaller screens */
+    margin: 15px 0;
+  }
+
+  .about-me-section {
+    flex-direction: column; /* Stack content vertically for smaller screens */
+  }
+
+  .about-me-text,
+  .about-me-image {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .skills-list {
+    flex-direction: column; /* Stack skills vertically for smaller screens */
+  }
+
+  #toggle-style-section {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  #toggle-mode {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+
+  .image-border,
+  .image-clicked {
+    border-radius: 0; /* Remove border radius for smaller screens */
+  }
+}
+
+/* Styles for even smaller screens (mobile) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Further adjust font size for smaller screens */
+  }
+
+  #toggle-mode {
+    font-size: 14px; /* Further adjust font size for smaller screens */
+    padding: 6px 12px; /* Further adjust padding for smaller screens */
+  }
+}
 
 header,
 nav,
@@ -41,24 +94,24 @@ footer {
 
 h1,
 h2 {
-  color: #F25D27;
+  color: #f25d27;
 }
 
 a {
-  color: #F29F05;
+  color: #f29f05;
 }
 
 p {
-  color: #F29F05;
+  color: #f29f05;
 }
 
 a:hover {
-  color: #F25D27;
+  color: #f25d27;
 }
 
 /* Light mode styles */
 .light-mode {
-  background-color: #3A758C;
+  background-color: #3a758c;
   color: #333333;
 }
 
@@ -75,7 +128,7 @@ a:hover {
 }
 
 #toggle-mode {
-  background-color: #F29F05; 
+  background-color: #f29f05;
   color: #e74104;
   font-size: 18px;
   padding: 10px 20px;
@@ -85,7 +138,7 @@ a:hover {
 }
 
 #toggle-mode:hover {
-  background-color: #F2E0D5;
+  background-color: #f2e0d5;
 }
 /* SKILLS SECTION styles*/
 #skills {
@@ -99,12 +152,12 @@ a:hover {
 
 .skills-list li {
   margin-right: 15px;
-  color: #F2E0D5;
+  color: #f2e0d5;
 }
 
 .skills-list i {
   font-size: 24px;
-  color: #F29F05;
+  color: #f29f05;
   margin-right: 8px;
 }
 
@@ -139,17 +192,18 @@ a:hover {
 }
 
 /* CONTACT SECTION styles */
-#contact, #footer {
+#contact,
+#footer {
   text-align: center;
 }
 
 #contact p {
-  color: #F29F05;
+  color: #f29f05;
 }
 
 #contact li {
   position: relative;
-  color: #F2E0D5;
+  color: #f2e0d5;
   text-align: center;
 }
 
@@ -161,4 +215,3 @@ a:hover {
 #projects {
   text-align: center;
 }
-
